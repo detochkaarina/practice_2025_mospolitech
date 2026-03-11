@@ -5,7 +5,7 @@ import requests
 import re
 
 
-bot = telebot.TeleBot('7732064595:AAGdf5mnv1x2YfMNM89IWgfCw5TKNDsZ7z8')
+bot = telebot.TeleBot('...')
 
 user_data = {}
 
@@ -101,4 +101,5 @@ def handle_all_messages(message):
     else:
         bot.reply_to(message, "Пожалуйста, используйте кнопки или начните с /start")
     
+
 bot.infinity_polling()
